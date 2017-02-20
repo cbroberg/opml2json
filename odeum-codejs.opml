@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+    <head>
+        <title>App</title>
+        <ownerName></ownerName>
+    </head>
+    <body>
+        <outline text="App">
+            <outline text="NotificationPanel"></outline>
+            <outline text="Header">
+                <outline text="HeaderLogo"></outline>
+                <outline text="HeaderSearchBar"></outline>
+                <outline text="HeaderSearchBarResultList"></outline>
+                <outline text="HeaderSearchBarResultListItem"></outline>
+                <outline text="HeaderSearchBarResultSection"></outline>
+                <outline text="HeaderNotifications"></outline>
+                <outline text="HeaderProfile"></outline>
+                <outline text="HeaderProfileAvatar"></outline>
+                <outline text="HeaderProfileList"></outline>
+                <outline text="HeaderProfileListItem"></outline>
+            </outline>
+            <outline text="Footer"></outline>
+            <outline text="Workspace"></outline>
+            <outline text="WindowModal"></outline>
+            <outline text="MenuPanel">
+                <outline text="MenuPanelToggle"></outline>
+                <outline text="MenuPanelMessages"></outline>
+                <outline text="MenuPanelList"></outline>
+                <outline text="MenuPanelListItem"></outline>
+                <outline text="MenuPanelUserList"></outline>
+                <outline text="MenuPanelUserListItem"></outline>
+                <outline text="MenuPanelAppMarket"></outline>
+                <outline text="MenuPanelAppMarketList"></outline>
+                <outline text="MenuPanelAppMarketListItem"></outline>
+            </outline>
+            <outline text="MessagePanel"></outline>
+        </outline>
+    </body>
+</opml>

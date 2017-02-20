@@ -18,7 +18,7 @@ function writeTree(tree) {
 			}
 		}
 		fs.appendFileSync(outputFile, "]");
-	}	
+	}
 	fs.appendFileSync(outputFile, "}");
 }
 
@@ -26,7 +26,7 @@ if (!inputFile || !outputFile) {
 	console.log("Usage:node parser.js inputfile.opml outputfile.json\nYou might need to use sudo node if you do not have enough permissions.");
 }
 else
-{	
+{
 	//Check if input file exists
 	try {
 		// Query the entry
@@ -40,7 +40,7 @@ else
 		{
 			var tree;
 			var currentNode;
-			
+
 			parser = expat.createParser();
 			parser.on('startElement', function (name, attrs) {
 				if(name=="outline") {
@@ -70,7 +70,7 @@ else
 			});
 
 			parser.on('error', function (err) {
-				console.error(err); 
+				console.error(err);
 			});
 			parser.on('close', function() {
 				try
@@ -91,6 +91,3 @@ else
 		console.log("Error loading file:" + inputFile);
 	}
 }
-
-
-

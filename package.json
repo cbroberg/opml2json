@@ -13,10 +13,11 @@
   "keywords": [
     "OPML",
     "D3",
+    "Mindnode",
     "Javascript"
   ],
   "author": "Varun Chatterji",
-  "license": "Creative Commons Attribution-Share Alike 3.0 Unported",
+  "license": "CC-BY-SA-3.0",
   "bugs": {
     "url": "https://github.com/vchatterji/opml2json/issues"
   },
