@@ -77,9 +77,8 @@ else
 				{
           fs.writeFileSync(outputFile, "");
           // Deletes content of existing file before appending
-          console.log("Inputfile:" + inputFile);
-          console.log("Outputfile:" + outputFile);
 					writeTree(tree);
+          console.log("Converted OPML to JSON to: " + outputFile);
 				}
 				catch(err) {
 					console.log("Error writing to:" + outputFile);

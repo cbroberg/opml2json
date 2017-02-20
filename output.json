@@ -1,0 +1,1 @@
+{"name":"opml2json","children":[{"name":"export opml files to JSON","children":[{"name":"use them with the D3 Javascript"},{"name":"use them with dataflick coming soon "},{"name":"let’s transform data to information"}]},{"name":"simple command line interface","children":[{"name":"use from Mac or Windows"},{"name":"node.js rocks"}]}]}

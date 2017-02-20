@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+    <head>
+        <title>App</title>
+        <ownerName></ownerName>
+    </head>
+    <body>
+        <outline text="App">
+            <outline text="MenuPanel">
+                <outline text="MenuPanelToggle"></outline>
+                <outline text="MenuPanelMessages"></outline>
+                <outline text="MenuPanelList"></outline>
+                <outline text="MenuPanelListItem"></outline>
+                <outline text="MenuPanelUserList"></outline>
+                <outline text="MenuPanelUserListItem"></outline>
+                <outline text="MenuPanelAppMarket"></outline>
+                <outline text="MenuPanelAppMarketList"></outline>
+                <outline text="MenuPanelAppMarketListItem"></outline>
+            </outline>
+            <outline text="Header">
+                <outline text="HeaderLogo"></outline>
+                <outline text="HeaderSearchBar"></outline>
+                <outline text="HeaderSearchBarResultList"></outline>
+                <outline text="HeaderSearchBarResultListItem"></outline>
+                <outline text="HeaderSearchBarResultSection"></outline>
+                <outline text="HeaderNotifications"></outline>
+                <outline text="HeaderProfile"></outline>
+                <outline text="HeaderProfileAvatar"></outline>
+                <outline text="HeaderProfileList"></outline>
+                <outline text="HeaderProfileListItem"></outline>
+            </outline>
+            <outline text="Footer">
+                <outline text="FooterLabel"></outline>
+                <outline text="FooterHelp"></outline>
+            </outline>
+            <outline text="Workspace">
+                <outline text="WorkspaceMainTab"></outline>
+                <outline text="WorkspaceMainTabItem"></outline>
+                <outline text="WorkspaceSeniorSubTab"></outline>
+                <outline text="WorkspaceSeniorSubTabItem"></outline>
+                <outline text="WorkspaceJuniorSubTab"></outline>
+                <outline text="WorkspaceJuniorSubTabItem"></outline>
+            </outline>
+            <outline text="MessagePanel">
+                <outline text="MessagePanelSearch"></outline>
+                <outline text="MessagePanelTabs"></outline>
+                <outline text="MessagePanelList"></outline>
+                <outline text="MessagePanelListItem"></outline>
+                <outline text="MessagePanelListItemClosed"></outline>
+                <outline text="MessagePanelListItemOpen"></outline>
+                <outline text="MessagePanelItemOpenAddUser"></outline>
+                <outline text="MessagePanelItemOpenFeed"></outline>
+                <outline text="MessagePanelItemOpenCompose"></outline>
+            </outline>
+            <outline text="NotificationPanel">
+                <outline text="NotificationPanelToggle"></outline>
+                <outline text="NotificationList"></outline>
+                <outline text="NotificationListItem"></outline>
+            </outline>
+            <outline text="WindowModal">
+                <outline text="WindowModalLogin"></outline>
+                <outline text="WindowModalAlert"></outline>
+            </outline>
+        </outline>
+    </body>
+</opml>
