@@ -13,17 +13,19 @@
 }
 
 .node text {
-  font: 10px sans-serif;
+  font: 14px sans-serif;
 }
 
 .link {
   fill: none;
   stroke: #ccc;
-  stroke-width: 3px;
+  stroke-width: 5px;
 }
 
 </style>
+
 <body>
+
 <script src="https://d3js.org/d3.v3.min.js"></script>
 <script>
 
@@ -52,7 +54,7 @@ var svg = d3.select("body").append("svg")
 
 d3.json("odeum-codejs.json", function(error, tree_data) {
   root = tree_data;
-  root.x0 = tree_height / 2;
+  root.x0 = tree_height / 1;
   root.y0 = 0;
 
   function collapse(d) {
@@ -169,3 +171,7 @@ function click(d) {
 }
 
 </script>
+
+</body>
+
+</html>
