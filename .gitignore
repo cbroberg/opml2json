@@ -6,6 +6,8 @@ lib-cov
 *.out
 *.pid
 *.gz
+*.opml
+*.json
 
 pids
 logs
@@ -13,8 +15,3 @@ results
 
 npm-debug.log
 node_modules
-
-odeum-codejs.opml
-odeum-codejs.json
-message.txt
-formatted.json
